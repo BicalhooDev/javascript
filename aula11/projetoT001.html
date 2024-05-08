@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NACIONALIDADE</title>
+</head>
+<body>
+    <H1>Descubra sua nacionalidade</H1>
+    Pais do usuário: <input type="text" name="text1" id="text1">
+    <input type="button" value="verificar" onclick="calcular()">
+    <div id="res">
+
+    </div>
+    
+    <script>
+        
+        function calcular() {
+            var text = window.document.getElementById('text1')
+            var res = window.document.getElementById('res')
+            var n1 = Text(text1.value)
+            res.innerHTML = `<p>sua nacionalidade é ${n1}</p>`
+        
+        }
+
+       
+    </script>
+</body>
+</html>

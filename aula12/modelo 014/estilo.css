@@ -1,0 +1,43 @@
+body{
+    background: coral;
+    font: normal 15pt arial;
+
+}
+
+header{
+    color: cornsilk;
+    text-align: center;
+    font: normal 25pt italic;
+    text-shadow: 7px 7px 10px black;
+
+
+}
+
+section{
+    background: rgb(228, 223, 220);
+    border-radius: 10px;
+    padding: 10px;
+    width: 500px;
+    margin: auto;
+    color: rgb(7, 7, 7);
+    font-style: initial;
+    box-shadow: 5px 10px 10px rgb(31, 30, 30)
+
+}
+div {
+    text-align: center;
+    padding: 6px;
+}
+
+footer{
+    color: cornsilk;
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+    font-style: italic;
+    
+    
+    
+
+
+}
